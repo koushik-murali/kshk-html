@@ -1,9 +1,6 @@
 body {
     font-family: sans-serif;
     margin-left: 20px;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
+    margin-top: 40px;
+    margin-right:20px;
 }
