@@ -6,6 +6,7 @@ body {
     justify-content: left;
     display: inline-block;
     line-height: 1.7em;
+    overflow-x:hidden;
 }
 
 a{
@@ -79,7 +80,6 @@ button:hover{
 @media (max-width: 900px) {
     .grid-container {
         grid-template-columns: repeat(2, 1fr);
-        width:100%;
 
     }
     
@@ -88,11 +88,7 @@ button:hover{
     }
 
     .grid-content{
-        width: 90%;
-    }
-
-    body{
-       margin:10%;
+        width: 100%;
     }
 }
 
