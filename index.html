@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="grid-container">
-        <div class="grid-item">
+        <div  class="navbar">
             <p>
             <a href="index.html"><p><b>Koushik Murali</b></a><br>
             Potter. Graphic Designer. Gamer. Biker.
@@ -31,28 +31,49 @@
         </div>
 
         <div class="grid-item wide">
+            <video loop={true} muted={true} autoplay={true} playsinline={true} class="grid-content">
+                <source src="img/sig.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
             <img src="img/pfp2.jpg" class="grid-content">
             <img src="img/article1.png" class="grid-content">
             <img src="img/pot-compressed.jpg" class="grid-content">
             <img src="img/mudhorn.png" class="grid-content">
             <img src="img/mandogrogu.jpg" class="grid-content">
             <img src="img/first-pots.jpg" class="grid-content">
-            <img src="img/darth.png" class="grid-content">
-            <img src="img/croc.jpg" class="grid-content">
-           
             
-            <video loop={true} muted={true} autoplay={true} playsinline={true} class="grid-content">
-                <source src="img/gif1.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            <video loop={true} muted={true} autoplay={true} playsinline={true} class="grid-content">
-                <source src="img/gif2.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
+        
+
+            <div class="inner-grid-container">
+                <div class="grid-item">
+                    <img src="img/darth.png" class="grid-content">
+                </div>
+                <div class="grid-item">
+                    <img src="img/croc.jpg" class="grid-content">
+                </div>
+            </div>
+
             <video loop={true} muted={true} autoplay={true} playsinline={true} class="grid-content">
                 <source src="img/e-gif.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
+
+            <div class="inner-grid-container">
+                <div class="grid-item">
+                    <video loop={true} muted={true} autoplay={true} playsinline={true} class="grid-content">
+                        <source src="img/gif1.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="grid-item">
+                    <video loop={true} muted={true} autoplay={true} playsinline={true} class="grid-content">
+                        <source src="img/gif2.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+   
+            
         </div>
       
     </div>
