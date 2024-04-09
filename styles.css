@@ -110,7 +110,7 @@ button:hover{
     }
 
     .grid-content{
-        width: 100%;
+        
     }
 }
 
@@ -121,9 +121,5 @@ button:hover{
     }
     .wide {
         grid-column: span 1; /* Occupies 2 columns */
-    }
-
-    .grid-content{
-        width: 100%;
     }
 }
