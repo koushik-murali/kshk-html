@@ -1,6 +1,6 @@
 body {
-    width: 100%;
-    margin: 4%;
+    width: 100vw;
+    padding: 4%;
     font-family: sans-serif;
     flex-direction: column;
     justify-content: left;
@@ -99,14 +99,13 @@ button:hover{
 @media (max-width: 1200px) {
 
     body{
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-top:40px;
+        padding:0%;
+        padding-top:40px;
     }
     .grid-container {
 
         gap:20px;
-        width:90%;
+        width:100%;
     }
 
     .inner-grid-container {
@@ -116,18 +115,14 @@ button:hover{
 }
 
 @media (max-width: 900px) {
-    body{
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-top:20px;
-    }
+
     .grid-container {
         grid-template-columns: repeat(1, 1fr);
         
     }   
     .grid-item {
         grid-column: span 2;
-        gap:20px;
+        gap:10px;
     }
     .wide {
         grid-column: span 1; /* Occupies 2 columns */
@@ -149,9 +144,7 @@ button:hover{
     body{
         margin-top:20px;
     }
-    .grid-container {
-        padding:10px; 
-    }
+  
     .wide {
         grid-column: span 1; /* Occupies 2 columns */
     }
