@@ -8,6 +8,18 @@ body {
     line-height: 1.7em;
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+    color:blueviolet;
+}
+
+a:hover{
+
+    color: black;
+
+}
+
 button{
     padding-left: 24px;
     padding-right: 24px;
@@ -43,7 +55,7 @@ button:hover{
 }
 
 .grid-item {
-    display: inline-block;
+ 
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -51,30 +63,43 @@ button:hover{
     padding: 0%; /* Creates a square by setting height equal to width */
 }
 
+.grid-content{
+    width:80%;
+}
+
 /* Media queries for responsiveness */
 
 @media (max-width: 1200px) {
     .grid-container {
         grid-template-columns: repeat(3, 1fr);
-        gap:40px;
+        gap:1.7em;
     }
 }
 
 @media (max-width: 900px) {
     .grid-container {
         grid-template-columns: repeat(2, 1fr);
-        gap:40px;
+        width:100%;
+
     }
     
     .grid-item {
         grid-column: span 2;
+    }
+
+    .grid-content{
+        width: 90%;
+    }
+
+    body{
+       margin:10%;
     }
 }
 
 @media (max-width: 600px) {
     .grid-container {
         grid-template-columns: repeat(1, 1fr);
-        gap:40px;
+  
     }
     .wide {
         grid-column: span 1; /* Occupies 2 columns */
