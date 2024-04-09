@@ -7,12 +7,16 @@ body {
     display: inline-block;
     line-height: 1.7em;
     overflow-x:hidden;
+    color: rgb(161, 161, 161); 
+}
+
+b{
+    color:black;
 }
 
 a{
     text-decoration: none;
     color: inherit;
-    color:blueviolet;
 }
 
 a:hover{
@@ -27,7 +31,7 @@ button{
     padding-top:16px;
     padding-bottom:16px;
     border-width: 1px;
-    border-color: black;
+    border-color: rgb(161, 161, 161);
     background-color: transparent;
     color: black;
     font-size: 16px;
@@ -42,7 +46,6 @@ button:hover{
     font-size: 16px;
     border-radius: 4px;
 }
-
 
 .grid-container {
     display: grid;
@@ -99,18 +102,14 @@ button:hover{
     .grid-container {
         grid-template-columns: repeat(1, 1fr);
         width:100%;
-    }
-    
+    }   
     .grid-item {
         grid-column: span 2;
         gap:20px;
     }
-
     .wide {
         grid-column: span 1; /* Occupies 2 columns */
     }
-
-
 }
 
 @media (max-width: 600px) {
