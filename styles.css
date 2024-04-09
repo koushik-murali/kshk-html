@@ -80,6 +80,8 @@ button:hover{
 @media (max-width: 900px) {
     .grid-container {
         grid-template-columns: repeat(2, 1fr);
+        padding-left: 20px;
+        padding-right: 20px;
 
     }
     
