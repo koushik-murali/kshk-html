@@ -98,6 +98,7 @@ button:hover{
 @media (max-width: 900px) {
     .grid-container {
         grid-template-columns: repeat(1, 1fr);
+        
     }
     
     .grid-item {
@@ -117,7 +118,7 @@ button:hover{
 @media (max-width: 600px) {
     .grid-container {
         grid-template-columns: repeat(1, 1fr);
-  
+        width:100%;
     }
     .wide {
         grid-column: span 1; /* Occupies 2 columns */
