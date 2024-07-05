@@ -10,6 +10,12 @@ body {
     color: rgb(161, 161, 161); 
 }
 
+h1{
+    font-size: 32px;
+    line-height: 120%;
+    font-family: monospace;
+}
+
 .navbar{
     position:sticky;
     position: -webkit-sticky;
@@ -112,6 +118,12 @@ button:hover{
         grid-template-columns: repeat(1, 1fr);
         gap: 20px;
     }
+
+    h1{
+        font-size: 28px;
+        line-height: 120%;
+        font-family: 'Courier New', Courier, monospace;
+    }
 }
 
 @media (max-width: 900px) {
@@ -136,6 +148,12 @@ button:hover{
     .navbar{
         position:static;
         height:auto;
+    }
+
+    h1{
+        font-size: 20px;
+        line-height: 120%;
+        font-family: 'Courier New', Courier, monospace;
     }
     
 }
